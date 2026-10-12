@@ -24,15 +24,15 @@ Recommendations are determined using **TF-IDF vectorization** and **Cosine Simil
 
 ```mermaid
 graph TD
-    A[MovieLens 100K Dataset<br/>movies.csv, tags.csv, ratings.csv] --> B[Data Preprocessing & Feature Engineering<br/>src/data_loader.py]
-    B --> C[Metadata Soup Construction<br/>Genres Multi-token + User Community Tags]
-    C --> D[TF-IDF Feature Extraction<br/>ngram_range=1,2 | max_features=8000]
-    D --> E[Pairwise Cosine Similarity Engine<br/>src/recommender.py]
-    E --> F[Top-N Candidate Retrieval & Filtering<br/>Rating threshold, year window, genre]
-    E --> G[Model Serialization<br/>artifacts/top50_similarities.pkl]
-    F --> H[Interactive Streamlit Application<br/>app.py]
+    A["MovieLens 100K Dataset<br/>(movies.csv, tags.csv, ratings.csv)"] --> B["Data Preprocessing & Feature Engineering<br/>(src/data_loader.py)"]
+    B --> C["Metadata Soup Construction<br/>(Genres Multi-token + User Community Tags)"]
+    C --> D["TF-IDF Feature Extraction<br/>(ngram_range=(1,2), max_features=8000)"]
+    D --> E["Pairwise Cosine Similarity Engine<br/>(src/recommender.py)"]
+    E --> F["Top-N Candidate Retrieval & Filtering<br/>(Rating threshold, year window, genre)"]
+    E --> G["Model Serialization<br/>(artifacts/top50_similarities.pkl)"]
+    F --> H["Interactive Streamlit Application<br/>(app.py)"]
     G --> H
-    H --> I[User Exploration<br/>Visual Cards, Match %, Trailer Links & Explanations]
+    H --> I["User Exploration<br/>(Visual Cards, Match %, Trailer Links & Explanations)"]
 ```
 
 ---
