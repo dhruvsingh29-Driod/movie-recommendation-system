@@ -1,0 +1,9 @@
+services:
+  movie-recommender:
+    build: .
+    container_name: movie-recommendation-engine
+    ports:
+      - "8501:8501"
+    environment:
+      - PYTHONUNBUFFERED=1
+    restart: unless-stopped
