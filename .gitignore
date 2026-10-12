@@ -19,3 +19,7 @@ data/*.zip
 # OS files
 .DS_Store
 Thumbs.db
+
+# GitHub workflows (avoids fine-grained PAT workflow scope restrictions)
+.github/
+
