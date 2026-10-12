@@ -4,6 +4,8 @@
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-1.5.2-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.65-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![Dataset](https://img.shields.io/badge/Dataset-MovieLens_100K-blue?style=for-the-badge)](https://grouplens.org/datasets/movielens/100k/)
+[![CI](https://github.com/dhruvsingh29-Driod/movie-recommendation-system/actions/workflows/ci.yml/badge.svg)](https://github.com/dhruvsingh29-Driod/movie-recommendation-system/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 > **Resume Summary:**
 > - **Built a content-based movie recommendation engine in Python using the MovieLens 100K dataset**
